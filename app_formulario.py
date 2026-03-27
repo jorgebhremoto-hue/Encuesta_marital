@@ -447,7 +447,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-#cd C:\Users\lemon\mu_code\VSCODEprograms\streamlit\despliegue_2
-#streamlit run app_formulario.py
