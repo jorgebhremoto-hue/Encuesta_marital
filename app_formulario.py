@@ -10,7 +10,7 @@ def auto_scroll_a_id(id_destino):
             var element = window.parent.document.getElementById("{id_destino}");
             if (element) {{
                 // CAMBIAMOS "start" POR "center"
-                element.scrollIntoView({{behavior: "smooth", block: "nearest"}});
+                element.scrollIntoView({{behavior: "smooth", block: "end"}});
             }}
         </script>
         """,
