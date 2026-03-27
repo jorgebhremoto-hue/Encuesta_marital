@@ -170,12 +170,12 @@ def main():
         "¿Cómo describirían la dinámica de comunicación durante un desacuerdo?",
         options=list(puntajes.keys()),
         format_func=lambda x: puntajes[x],
-        index=None,  # <--- ESTA ES LA CLAVE
+        index=None,  
         label_visibility="collapsed"
     )
 
     if puntos_pregunta_1 is not None:
-        auto_scroll_a_id("p3")
+        auto_scroll_a_id("p2")
 
     st.markdown('<div id="p2"></div>', unsafe_allow_html=True)
     st.markdown("## 2. En cuanto a la validación emocional, cuando uno se siente mal:")
@@ -187,7 +187,7 @@ def main():
         label_visibility="collapsed"
     )
     if puntos_pregunta_2 is not None:
-        auto_scroll_a_id("p4")
+        auto_scroll_a_id("p3")
 
     st.markdown('<div id="p3"></div>', unsafe_allow_html=True)
     st.markdown("## 3. ¿Cómo es el equilibrio entre la vida individual y la vida en pareja?")
@@ -201,7 +201,7 @@ def main():
     )
 
     if puntos_pregunta_3 is not None:
-        auto_scroll_a_id("p5")
+        auto_scroll_a_id("p4")
 
     st.markdown('<div id="p4"></div>', unsafe_allow_html=True)
     st.markdown("## 4. Sobre la confianza y la seguridad en el vínculo:")
@@ -215,7 +215,7 @@ def main():
     )
 
     if puntos_pregunta_4 is not None:
-        auto_scroll_a_id("p6")
+        auto_scroll_a_id("p5")
 
     st.markdown('<div id="p5"></div>', unsafe_allow_html=True)
     st.markdown("## 5. ¿Qué lugar ocupa la intimidad no sexual (afecto, caricias, complicidad) en su rutina?")
@@ -228,7 +228,7 @@ def main():
         label_visibility="collapsed"
     )
     if puntos_pregunta_5 is not None:
-        auto_scroll_a_id("p7")
+        auto_scroll_a_id("p6")
 
     st.markdown('<div id="p6"></div>', unsafe_allow_html=True)
     st.markdown("## 6. Ante una crisis externa (problemas laborales, familiares o económicos):")
@@ -241,7 +241,7 @@ def main():
         label_visibility="collapsed"
     )
     if puntos_pregunta_6 is not None:
-        auto_scroll_a_id("p8")
+        auto_scroll_a_id("p7")
 
     st.markdown('<div id="p7"></div>', unsafe_allow_html=True)
     st.markdown("## 7. ¿Cómo perciben su proyecto de vida a largo plazo?")
@@ -254,7 +254,7 @@ def main():
         label_visibility="collapsed"
     )
     if puntos_pregunta_7 is not None:
-        auto_scroll_a_id("p9")
+        auto_scroll_a_id("p8")
 
     st.markdown('<div id="p8"></div>', unsafe_allow_html=True)
     st.markdown("## 8. En la resolución de conflictos, la capacidad de perdón es:")
@@ -267,7 +267,7 @@ def main():
         label_visibility="collapsed"
     )
     if puntos_pregunta_8 is not None:
-        auto_scroll_a_id("p10")
+        auto_scroll_a_id("p9")
 
     st.markdown('<div id="p9"></div>', unsafe_allow_html=True)
     st.markdown("## 9. El manejo de las responsabilidades (hogar, finanzas, crianza) se siente:")
@@ -280,7 +280,7 @@ def main():
         label_visibility="collapsed"
     )
     if puntos_pregunta_9 is not None:
-        auto_scroll_a_id("p11")
+        auto_scroll_a_id("p10")
     st.markdown('<div id="p10"></div>', unsafe_allow_html=True)
     st.markdown("## 10. ¿Con qué frecuencia ríen o se divierten genuinamente juntos?")
 
@@ -292,7 +292,7 @@ def main():
         label_visibility="collapsed"
     )
     if puntos_pregunta_10 is not None:
-        auto_scroll_a_id("p12")
+        auto_scroll_a_id("p11")
     st.markdown('<div id="p11"></div>', unsafe_allow_html=True)
     st.markdown("## 11. El conocimiento mutuo (saber qué le preocupa al otro, sus sueños actuales) es:")
 
@@ -304,7 +304,7 @@ def main():
         label_visibility="collapsed"
     )
     if puntos_pregunta_11 is not None:
-        auto_scroll_a_id("p13")
+        auto_scroll_a_id("p12")
     st.markdown('<div id="p12"></div>', unsafe_allow_html=True)
     st.markdown("## 12. Cuando hay una diferencia de opinión irreconciliable:")
 
@@ -316,7 +316,7 @@ def main():
         label_visibility="collapsed"
     )
     if puntos_pregunta_12 is not None:
-        auto_scroll_a_id("p14")
+        auto_scroll_a_id("p13")
     st.markdown('<div id="p13"></div>', unsafe_allow_html=True)
     st.markdown("## 13. ¿Cómo describirían la admiración hacia su pareja?")
 
@@ -328,7 +328,7 @@ def main():
         label_visibility="collapsed"
     )
     if puntos_pregunta_13 is not None:
-        auto_scroll_a_id("p15")
+        auto_scroll_a_id("p14")
     st.markdown('<div id="p14"></div>', unsafe_allow_html=True)
     st.markdown("## 14. El impacto de la familia de origen (suegros, cuñados) en la relación es:")
 
